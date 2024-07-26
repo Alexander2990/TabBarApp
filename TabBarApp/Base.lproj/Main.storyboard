@@ -46,8 +46,20 @@
                     <view key="view" contentMode="scaleToFill" id="L6g-ux-6ZB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxY-hl-4Kp">
+                                <rect key="frame" x="110" y="400.66666666666669" width="173" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Yp1-18-PRI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sxY-hl-4Kp" firstAttribute="centerY" secondItem="L6g-ux-6ZB" secondAttribute="centerY" id="13U-hf-JTB"/>
+                            <constraint firstItem="sxY-hl-4Kp" firstAttribute="centerX" secondItem="L6g-ux-6ZB" secondAttribute="centerX" id="qBK-O9-POb"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First Screen" image="1.circle.fill" catalog="system" id="RaL-Ul-X4z"/>
                 </viewController>
@@ -62,8 +74,20 @@
                     <view key="view" contentMode="scaleToFill" id="6xg-4g-aJd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItT-0f-X7g">
+                                <rect key="frame" x="86" y="400.66666666666669" width="221" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="kxX-Un-LKc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ItT-0f-X7g" firstAttribute="centerX" secondItem="6xg-4g-aJd" secondAttribute="centerX" id="7mB-VI-7ja"/>
+                            <constraint firstItem="ItT-0f-X7g" firstAttribute="centerY" secondItem="6xg-4g-aJd" secondAttribute="centerY" id="d2r-Fs-cCh"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second Screen" image="2.circle.fill" catalog="system" id="qsf-xD-FY3"/>
                 </viewController>
