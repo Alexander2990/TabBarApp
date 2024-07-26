@@ -95,28 +95,78 @@
             </objects>
             <point key="canvasLocation" x="1633" y="742"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Sf1-c0-2ve">
+            <objects>
+                <viewController id="sb0-an-H7I" customClass="ThirdViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fY4-e5-uRT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTK-be-Fiv">
+                                <rect key="frame" x="104" y="400.66666666666669" width="185" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OI0-cE-YBa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NTK-be-Fiv" firstAttribute="centerY" secondItem="fY4-e5-uRT" secondAttribute="centerY" id="N5d-Gf-Pjl"/>
+                            <constraint firstItem="NTK-be-Fiv" firstAttribute="centerX" secondItem="fY4-e5-uRT" secondAttribute="centerX" id="SyA-7d-RaM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rUe-rL-huX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6by-wU-PC1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3263" y="742"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="hi5-CW-sJc">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3mx-5S-okP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XSv-2Z-0o3">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="oeA-cg-vsM" kind="relationship" relationship="viewControllers" id="FzF-r7-Kpq"/>
                         <segue destination="c6c-te-Jyn" kind="relationship" relationship="viewControllers" id="Vme-q3-d8l"/>
+                        <segue destination="O6i-pr-WRT" kind="relationship" relationship="viewControllers" id="QoW-Rq-b5k"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9c1-dt-n7U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="903.05343511450383" y="3.5211267605633805"/>
         </scene>
+        <!--Third Screen-->
+        <scene sceneID="RVF-3h-R0K">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O6i-pr-WRT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Third Screen" image="3.circle.fill" catalog="system" id="1pR-eG-NsB"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wkO-6O-dji">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sb0-an-H7I" kind="relationship" relationship="rootViewController" id="nyT-Mp-Sf8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bu9-Gn-HFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2419" y="742"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1.circle.fill" catalog="system" width="128" height="123"/>
         <image name="2.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="3.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
