@@ -123,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="3263" y="742"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="hi5-CW-sJc">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3mx-5S-okP" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3mx-5S-okP" customClass="TabBarViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XSv-2Z-0o3">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
